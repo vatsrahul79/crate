@@ -4,8 +4,7 @@
 
 - **API** built with Node, GraphQL, Express, Sequelize (MySQL) and JWT Auth
 - **WebApp** built with React and Redux along with Server Side Rendering (SSR) / SEO friendly
-- **Mobile** (Android and iOS) Native App build with React Native
-- Written in ES6+ using Babel + Webpack
+a Written in ES6+ using Babel + Webpack
 - Designed using Adobe Experience Design. Preview it [here](https://xd.adobe.com/view/a662a49f-57e7-4ffd-91bd-080b150b0317/).
 
 ## Features
@@ -101,7 +100,7 @@ Click on image to view fullscreen and zoom
   - Webapp: Install packages `cd web` and `npm install`
 
 - Development
-  - Run API `cd api` and `npm start`, browse GraphiQL Playground at http://localhost:8000/\_\_graphql
+  - Run API `cd api` and `npm start`, graphql endpoint is at http://localhost:8000 and the GraphiQL Playground at http://localhost:8000/__graphql
   - Run Webapp `cd web` and `npm start`, browse webapp at http://localhost:3000/
 
 ## Login Credentials
