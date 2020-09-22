@@ -5,7 +5,6 @@
 - **API** built with Node, GraphQL, Express, Sequelize (MySQL) and JWT Auth
 - **WebApp** built with React and Redux along with Server Side Rendering (SSR) / SEO friendly
 a Written in ES6+ using Babel + Webpack
-- Designed using Adobe Experience Design. Preview it [here](https://xd.adobe.com/view/a662a49f-57e7-4ffd-91bd-080b150b0317/).
 
 ## Features
 
@@ -19,17 +18,6 @@ a Written in ES6+ using Babel + Webpack
 - File upload feature with GraphQL
 - React storybook demonstrating UI components for web
 - Server side rendering
-- Multi-package setup and dev scripts for an automated dev experiance
-
-## Useful for
-
-- Developers with basic knowledge on React exploring advance React projects
-- Developers learning React Native
-- Exploring GraphQL
-- Scalable project structure and code
-- Starter application for Mobile and Web along with SSR
-- Multi-package scripts
-- Sample project with combination of all above
 
 ## Screenshots and GIFs
 
