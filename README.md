@@ -79,6 +79,11 @@ Click on image to view fullscreen and zoom
 
   - Node 12.x or later
   - Running **MySQL database server**
+  - From MySQL console create a new database called `crate` as root user.
+
+  ```
+  CREATE DATABASE crate;
+  ```
 
 - Clone repo `git clone git@github.com:awinabi/crate.git crate`
 
