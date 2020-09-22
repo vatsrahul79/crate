@@ -1,25 +1,28 @@
-'use strict'
+"use strict";
 
 // User
-module.exports = function(sequelize, DataTypes) {
-  let User = sequelize.define('users', {
+module.exports = function (sequelize, DataTypes) {
+  let User = sequelize.define("users", {
     name: {
-      type: DataTypes.STRING
+      type: DataTypes.STRING,
     },
     email: {
-      type: DataTypes.TEXT
+      type: DataTypes.TEXT,
+    },
+    address: {
+      type: DataTypes.TEXT,
     },
     password: {
-      type: DataTypes.TEXT
+      type: DataTypes.TEXT,
     },
     role: {
-      type: DataTypes.TEXT
-    }
-  })
+      type: DataTypes.TEXT,
+    },
+  });
 
-  User.associate = function(models) {
-    User.hasMany(models.Subscription)
-  }
+  User.associate = function (models) {
+    User.hasMany(models.Subscription);
+  };
 
-  return User
-}
+  return User;
+};
