@@ -12,6 +12,7 @@ const databaseConfigEnv = databaseConfig[NODE_ENV]
 const connection = new Sequelize(databaseConfigEnv.database, databaseConfigEnv.username, databaseConfigEnv.password, {
   host: databaseConfigEnv.host,
   dialect: databaseConfigEnv.dialect,
+  storage: databaseConfigEnv.storage,
   logging: false
 })
 
