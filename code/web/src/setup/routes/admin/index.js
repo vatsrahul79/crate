@@ -4,6 +4,7 @@ import * as product from './product'
 import * as crate from './crate'
 import * as subscription from './subscription'
 import * as user from './user'
+import * as userLists from './userList'
 
 // Admin routes
 const admin = {
@@ -11,7 +12,8 @@ const admin = {
   ...product,
   ...crate,
   ...subscription,
-  ...user
+  ...user,
+  ...userLists
 }
 
 export default admin
