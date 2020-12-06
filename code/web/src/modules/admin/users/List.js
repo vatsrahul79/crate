@@ -28,7 +28,6 @@ class List extends PureComponent {
   }
 
   render() {
-      console.log(this.props);
     const { isLoading, list } = this.props.users
 
     return (
